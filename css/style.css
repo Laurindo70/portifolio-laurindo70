@@ -13,18 +13,18 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #201b2c;
+  background: #1C2018;
   padding: 2px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #00ff8052;
+  background-color: #8c6d39;
   border-radius: 20px;
   border: 3px solid #201b2c;
 }
 
 body {
-  background: #201b2c;
+  background: #1C2018;
 }
 
 section {
@@ -54,28 +54,28 @@ header .logo a{
   text-decoration: none;
   font-weight: bolder;
   font-size: 25px;
-  color: #00ff8052;
+  color: #8c6d39;
 }
 
 header .logo:hover span{
   cursor: pointer;
-  color: #00ff8052;
+  color: #8c6d39;
 }
 
 header .logo a:hover{
   cursor: pointer;
-  color: #fff;
+  color: #D5BDAB;
 }
 
 header .logo span{
   font-weight: bolder;
   font-size: 25px;
-  color: #fff;
+  color: #D5BDAB;
 }
 
 header .logo span:hover{
   cursor: pointer;
-  color: #00ff8052;
+  color: #8c6d39;
 }
 
 header .navbar ul{
@@ -93,14 +93,14 @@ header .navbar ul li a{
   padding: 20px;
   color: #fff;
   display: block;
-  border-bottom: solid 1px #00ff8052;
+  border-bottom: solid 1px #8c6d39;
 }
 
 header .navbar ul li:focus-within,
 header .navbar ul li a:hover{
   border-radius: 10px;
   cursor: pointer;
-  background: #00ff8052;
+  background: #8c6d39;
   color: #fff;
 }
 
@@ -123,6 +123,10 @@ header .navbar ul li:hover > ul{
   display: initial;
 }
 
+.nome-inicio{
+  color: #D5BDAB;
+}
+
 
 
 #menu-bar{
@@ -131,7 +135,7 @@ header .navbar ul li:hover > ul{
 
 header label{
   font-size: 20px;
-  color: #00ff8052;
+  color: #8c6d39;
   cursor: pointer;
   display: none;
 }
@@ -202,7 +206,7 @@ header label{
 }
 
 .content .textBox h2 span {
-  color: #017143;
+  color: #8c6d39;
   font-size: 1em;
   font-weight: 500;
 }
@@ -217,18 +221,12 @@ header label{
   display: inline-block;
   margin-top: 20px;
   padding: 8px 20px;
-  background: #017143;
-  color: #fff;
+  background: #fff;
+  color: #8c6d39;
   border-radius: 40px;
   font-weight: 500;
   letter-spacing: 1px;
   text-decoration: none;
-}
-
-.content .textBox .sobre:hover{
-  cursor: pointer;
-  background: #fff;
-  color: #017143;
 }
 
 .content .imgBox {
@@ -244,7 +242,7 @@ header label{
 }
 
 .content .imgBoxConteudo img {
-  border: solid 2px #017143;
+  border: solid 2px #8c6d39;
   border-radius: 10px;
   max-width: 700px;
 }
@@ -272,11 +270,11 @@ header label{
 }
 
 .sci li a i:hover {
-  color: #017143;
+  color: #D5BDAB;
 }
 
 .sci li .rede-inicio i:hover{
-  color: #201b2c;
+  color: #D5BDAB;
 }
 
 .sci li a i {
@@ -291,7 +289,7 @@ header label{
   left: 0;
   width: 100%;
   height: 100vh;
-  background: #017143;
+  background: #8c6d39;
   clip-path: circle(600px at right 800px);
 }
 
@@ -301,7 +299,7 @@ header label{
   left: 0;
   width: 100%;
   height: 100vh;
-  background: #017143;
+  background: #8c6d39;
   clip-path: circle(586px at right 800px);
 }
 
@@ -311,7 +309,7 @@ header label{
   left: 0;
   width: 100%;
   height: 100vh;
-  background: #017143;
+  background: #8c6d39;
   /* clip-path: ellipse(40vw 70vh at 10% 20%); */
   clip-path: circle(586px at left 800px);
 }
@@ -360,7 +358,7 @@ ul{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: #017143;
+	background-color: #8c6d39;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
