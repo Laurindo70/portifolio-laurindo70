@@ -2,173 +2,255 @@
 <html lang="pt-br">
 
 <head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Ronan Laurindo Flor</title>
-   <link rel="icon" 
-      type="image/ico" 
-      href="./img/r-solid.ico" />
-   <link rel="stylesheet" href="./css/style.css">
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
-   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ronan Laurindo | Full-Stack Developer</title>
+    
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%230f0f0f%22/><text y=%22.85em%22 x=%2215%22 font-size=%2275%22 font-weight=%22900%22 fill=%22%23ffdf00%22 font-family=%22sans-serif%22>R</text><circle cx=%2280%22 cy=%2280%22 r=%2212%22 fill=%22%238a2be2%22/></svg>">
+    <meta name="theme-color" content="#0f0f0f">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
 
-   <section>
-      <div class="circle"><a id="incio"></a></div>
-      <header>
-         <h3 class="logo"><a href="#incio">RLF<span>Tech</span></a></h3>
+    <section id="hero" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-text-content">
+                <div class="hero-name-badge">
+                    <span class="dot"></span>
+                    RONAN LAURINDO
+                </div>
 
-         <input type="checkbox" id="menu-bar">
-         <label for="menu-bar">Menu</label>
+                <span class="hero-intro">DESIGN • CÓDIGO • ESTRATÉGIA</span>
 
-         <nav class="navbar">
-            <ul>
-               <li><a class="link" href="#sobre">Sobre</a></li>
-               <li><a>Projetos</a>
-                  <ul>
-                     <li><a class="link" href="#votacao">Votação Conselho</a></li>
-                     <li><a class="link" href="#login">Tela de Login</a></li>
-                  </ul>
-               </li>
-               <li><a href="#footer">Redes</a></li>
-            </ul>
-         </nav>
-      </header>
-      <div class="content">
-         <div class="textBox">
-            <h2 class="nome-inicio">Ronan Laurindo<br>RLF<span>Tech</span></h2>
-            <p>Desenvolvedor Back-End e Full-Stack</p>
-            <a class="sobre" href="#sobre">Sobre Mim</a>
-         </div>
-         <div class="imgBox">
-            <img src="img/User flow-cuate.svg" class="imagem-animacao"
-               alt="Animação de homem em pé com um celular e um tablet flutuando.">
-         </div>
-      </div>
-      <ul class="sci">
-         <li><a class="rede-inicio" href="https://www.linkedin.com/in/ronan-laurindo-1079241a5/" target="_blank"><i
-                  class="fab fa-linkedin-in"></i></a></li>
-         <li><a class="rede-inicio" href="https://pt.stackoverflow.com/users/303332/ronan-laurindo" target="_blank"><i
-                  class="fab fa-stack-overflow"></i></a></li>
-         <li><a class="rede-inicio" href="https://github.com/Laurindo70" target="_blank"><i class="fab fa-github"></i></a></li>
-      </ul>
-   </section>
+                <h1 class="hero-title">
+                    Eu desenvolvo experiências que <span class="highlight">definem o amanhã.</span>
+                </h1>
 
-   <section>
-      <div class="circle3"><a id="sobre"></a></div>
-      <div class="content">
-         <div class="textBox">
-            <h2>Sobre</h2>
-            <p>Sou desenvolvedor Back-End, com alguns conhecimentos básicos de Front-End,
-               possuo conhecimentos em JavaScript, Php e C#.
-               Tendo um conhecimento mais aprofundado em NodeJs, ReactJs e AdonisJS, começando a ter os primeiros
-               contatos
-               com C# e Dot.net. Passei Um ano e meio dando manutenção em dois sistemas desenvolvidos apenas com php e
-               MariaDb e realizando o desenvolvimento de um sistema utilizando React no Front-End e NodeJs com Express
-               no Back-End e conexão com banco de dados
-               MariaDb e PostgreSql, mais algumas apis desenvolvidas com AdonisJS que não foram utilizadas.
+                <p class="hero-description">
+                    Soluções completas, do protótipo ao deploy. Pronto para elevar o nível do seu próximo projeto
+                    digital.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="hero-btn">MEUS PROJETOS</a>
+                    <a href="#contact" class="hero-btn-link">VAMOS CONVERSAR?</a>
+                </div>
+            </div>
+
+
+
+            <div class="hero-image-content">
+                <div class="image-wrapper">
+                    <img src="./img/hero.png" alt="Foto de Ronan Laurindo" class="profile-photo">
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-down-indicator">
+            <div class="mouse-body">
+                <div class="mouse-wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="section-header">
+            <h2 class="section-title">
+                Projetos com <span class="purple-text">propósito</span> e <span class="outline-text">estilo</span>
+            </h2>
+            <p class="section-subtitle">
+                Uma seleção de trabalhos que demonstram meu foco em performance e experiência do usuário.
             </p>
-         </div>
-         <div class="imgBox">
-            <img src="img/Foto.jpeg" class="imagem-foto" alt="Foto">
-         </div>
-      </div>
-      <ul class="sci">
-         <li><a href="https://www.linkedin.com/in/ronan-laurindo-1079241a5/" target="_blank"><i
-                  class="fab fa-linkedin-in"></i></a></li>
-         <li><a href="https://pt.stackoverflow.com/users/303332/ronan-laurindo" target="_blank"><i
-                  class="fab fa-stack-overflow"></i></a></li>
-         <li><a href="https://github.com/Laurindo70" target="_blank"><i class="fab fa-github"></i></a></li>
-      </ul>
-   </section>
+        </div>
 
-   <section class="projeto1">
-      <div class="circle3"><a id="votacao"></a></div>
-      <div class="content">
-         <div class="textBox">
-            <h2>Votos conselho tutelar</h2>
-            <p>Sistema desenvolvido para a realização da votação do conselho tutelar no ano de 2019.
-               O sistema utilizado conceitos de programação básicos, desenvolvido apenas com html, css e Js.
-               Como se trata de uma aplicação de votação simples não há utilização de banco de dados externo, e o
-               armazenamento de dados utiliza LocalStorage.
-            </p>
-            <a href="https://github.com/Laurindo70/Votacao-conselho_tutelar" target="_blank">Projeto no Github</a>
-         </div>
-         <div class="imgBoxConteudo">
-            <img src="img/conselho.png" class="starbucks" alt="Animação">
-         </div>
-      </div>
-      <ul class="sci">
-         <li><a><i class="fab fa-css3"></i></a></li>
-         <li><a><i class="fab fa-html5"></i></a></li>
-         <li><a><i class="fab fa-js"></i></a></li>
-      </ul>
-   </section>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./img/projetos/cestas-clei.png" alt="Preview do Projeto">
+                </div>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <h3>Cestas da Clei</h3>
+                    <p>Desenvolvimento de uma plataforma personalizada para uma marca de presentes artesanais. O projeto
+                        focou-se na criação de um catálogo digital intuitivo, facilitando a navegação entre categorias
+                        como cestas de café da manhã, vinhos e opções românticas. O site foi otimizado para conversão
+                        direta via WhatsApp, integrando a estética rústica e afetiva da marca com uma interface moderna
+                        e responsiva.</p>
+                    <div class="project-links">
+                        <a href="https://cestariadaclei.com.br" class="view-project">Ver Projeto →</a>
+                        <a href="#" class="github-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
 
-   <section class="projeto2">
-      <div class="circle3"><a id="login"></a></div>
-      <div class="content">
-         <div class="textBox">
-            <h2>Tela de Login</h2>
-            <p>Apenas uma tela de login que foi feita com auxilio de video tutorial do YouTube para aprendizado.
-            </p>
-            <a href="https://github.com/Laurindo70/tela-login-css.git" target="_blank">Projeto no Github</a>
-         </div>
-         <div class="imgBoxConteudo">
-            <img src="img/login.png" class="starbucks" alt="Animação">
-         </div>
-      </div>
-      <ul class="sci">
-         <li><a><i class="fab fa-css3"></i></a></li>
-         <li><a><i class="fab fa-html5"></i></a></li>
-      </ul>
-   </section>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="link-da-imagem-do-projeto.jpg" alt="Preview do Projeto">
+                </div>
+                <div class="project-info">
+                    <div class="project-tags">
+                        <span>TypeScript</span>
+                        <span>Firebase</span>
+                    </div>
+                    <h3>E-commerce Intelligence</h3>
+                    <p>Plataforma focada em análise de dados e performance de vendas para novos negócios.</p>
+                    <div class="project-links">
+                        <a href="#" class="view-project">Ver Projeto →</a>
+                        <a href="#" class="github-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-   <footer class="footer">
-      <div class="container-footer">
-         <div class="row">
-            <div class="footer-col">
-               <h4>Design</h4>
-               <ul>
-                  <li><a class="link-footer" id="footer">Html</a></li>
-                  <li><a class="link-footer">CSS</a></li>
-                  <li><a class="link-footer">Figma</a></li>
-               </ul>
+    <section id="skills" class="skills-section">
+        <div class="section-header">
+            <span class="header-pre-title">MINHA STACK</span>
+            <h2 class="section-title">Tecnologias & <span class="purple-text">Habilidades</span></h2>
+        </div>
+
+        <div class="skills-container">
+            <div class="skill-category">
+                <div class="category-icon"><i class="fas fa-code"></i></div>
+                <h3>Frontend</h3>
+                <ul class="skill-list">
+                    <li><span class="dot"></span> React.js</li>
+                    <li><span class="dot"></span> View.js</li>
+                    <li><span class="dot"></span> Next.js</li>
+                    <li><span class="dot"></span> Tailwind CSS</li>
+                </ul>
             </div>
-            <div class="footer-col">
-               <h4>Linguagens</h4>
-               <ul>
-                  <li><a class="link-footer">JavaScript</a></li>
-                  <li><a class="link-footer">Php</a></li>
-                  <li><a class="link-footer">Java</a></li>
-                  <li><a class="link-footer">C#</a></li>
-               </ul>
+
+            <div class="skill-category highlight-card">
+                <div class="category-icon"><i class="fas fa-server"></i></div>
+                <h3>Backend</h3>
+                <ul class="skill-list">
+                    <li><span class="dot"></span> Node.js</li>
+                    <li><span class="dot"></span> Dotnet</li>
+                    <li><span class="dot"></span> PostgreSQL</li>
+                    <li><span class="dot"></span> APIs RESTful</li>
+                </ul>
             </div>
-            <div class="footer-col">
-               <h4>Tecnologias</h4>
-               <ul>
-                  <li><a class="link-footer">NodeJs</a></li>
-                  <li><a class="link-footer">ReactJs</a></li>
-                  <li><a class="link-footer">AdonisJs</a></li>
-                  <li><a class="link-footer">DotNet</a></li>
-                  <li><a class="link-footer">Android Studio</a></li>
-               </ul>
+
+            <div class="skill-category">
+                <div class="category-icon"><i class="fas fa-tools"></i></div>
+                <h3>Ferramentas</h3>
+                <ul class="skill-list">
+                    <li><span class="dot"></span> Docker</li>
+                    <li><span class="dot"></span> Git & GitHub</li>
+                    <li><span class="dot"></span> AWS / Vercel</li>
+                    <li><span class="dot"></span> Figma</li>
+                </ul>
             </div>
-            <div class="footer-col">
-               <h4>Redes</h4>
-               <div class="social-links">
-                  <a href="https://github.com/Laurindo70" target="_blank"><i class="fab fa-github"></i></a>
-                  <a href="https://pt.stackoverflow.com/users/303332/ronan-laurindo" target="_blank"><i class="fab fa-stack-overflow"></i></a>
-                  <a href="https://www.linkedin.com/in/ronan-laurindo-1079241a5/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-               </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section reveal">
+        <div class="about-container">
+            <div class="about-stats reveal">
+                <div class="stat-item project-card reveal reveal-delay-1">
+                    <span class="stat-number">05+</span>
+                    <span class="stat-label">Anos de <br>Experiência</span>
+                </div>
+                <div class="stat-item project-card reveal reveal-delay-2">
+                    <span class="stat-number">20+</span>
+                    <span class="stat-label">Projetos <br>Entregues</span>
+                </div>
+                <div class="stat-item project-card reveal reveal-delay-3">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label">Tecnologias <br>Dominadas</span>
+                </div>
             </div>
-         </div>
-      </div>
-   </footer>
+
+            <div class="about-content">
+                <span class="header-pre-title" style="text-align: left;">TRAJETÓRIA</span>
+                <h2 class="about-title">Resolvendo problemas através da <span class="purple-text">tecnologia.</span>
+                </h2>
+
+                <p class="about-text">
+                    Minha jornada no desenvolvimento começou com a curiosidade de entender como as coisas funcionam por
+                    baixo do capô. Hoje, foco em construir aplicações que não apenas funcionam, mas que oferecem uma
+                    experiência excepcional.
+                </p>
+
+                <p class="about-text">
+                    Acredito que o código é uma ferramenta para transformar realidades. Por isso, mantenho meu foco na
+                    <span class="highlight-yellow">escrita de código limpo</span>, arquiteturas escaláveis e um design
+                    que respeita o usuário.
+                </p>
+
+                <div class="about-signature">
+                    <span class="sig-name">Ronan Laurindo</span>
+                    <span class="sig-dash"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer-section">
+        <div class="footer-container">
+            <div class="footer-cta">
+                <span class="header-pre-title">VAMOS TRABALHAR JUNTOS?</span>
+                <h2 class="footer-title">Tem um projeto em mente? <br><span class="purple-text">Vamos torná-lo
+                        real.</span></h2>
+                <p class="footer-description">
+                    Estou sempre aberto a novas oportunidades, colaborações em projetos open-source ou apenas para um
+                    café virtual sobre tecnologia.
+                </p>
+                <a href="mailto:seuemail@exemplo.com" class="footer-main-btn">ENVIAR E-MAIL</a>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-info">
+                    <span class="footer-logo">RONAN<span class="yellow-dot">.</span></span>
+                    <p>© 2026 • Desenvolvido com foco e paixão.</p>
+                </div>
+
+                <div class="footer-socials">
+                    <a href="https://linkedin.com/in/seuuser" target="_blank" class="social-link">LinkedIn</a>
+                    <a href="https://github.com/laurindo70" target="_blank" class="social-link">GitHub</a>
+                    <a href="https://wa.me/seunumerotelefone" target="_blank" class="social-link">WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
+<script>
+    // Função para observar os elementos e ativar a animação
+    const revealElements = () => {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, {
+            threshold: 0.1 // Ativa quando 10% do elemento aparece
+        });
+
+        // Seleciona todos os elementos com a classe .reveal
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    };
+
+    // Inicializa ao carregar a página
+    window.addEventListener('DOMContentLoaded', revealElements);
+</script>
 
 </html>
